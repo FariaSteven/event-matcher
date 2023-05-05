@@ -11,11 +11,12 @@ import * as path from 'path';
       config: {
         client: 'pg',
         connection: {
-          host: 'localhost',
-          user: 'postgres',
-          password: '123',
-          database: 'postgres',
-          port: 5432
+          host: 'ep-dry-river-457835.us-east-2.aws.neon.tech',
+          user: 'FariaSteven',
+          password: 'WYeA3uD9KnHL',
+          database: 'postgress',
+          port: 5432,
+          ssl: { rejectUnauthorized: true },
         },
         migrations: {
           directory: '../migrations',
